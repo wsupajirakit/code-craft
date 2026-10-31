@@ -62,6 +62,7 @@ A change that works but fails one of these is not done
 
 ```
 START      session-recovery        (only if continuing interrupted work)
+           kickoff                 new project or feature: ask ≤ 5, decide, write the brief
            ground-rules     confirm target · load project conventions
 UNDERSTAND deep-dive  ── probe   evidence from code, data and the running system
 DESIGN     living-plan           plan with measurable proof per step
@@ -79,6 +80,7 @@ CLOSE      living-plan           note + work log
 
 | Skill | Trigger |
 |---|---|
+| `kickoff` | start a new project or feature; goal, scope or acceptance not yet written |
 | `ground-rules` | any task that edits code, config, schema or scripts |
 | `deep-dive` | analyse, explain, find a root cause, execute a plan step |
 | `probe` | the answer depends on what a running system actually does |
@@ -131,6 +133,7 @@ README.md                      this governing document
 PLAN.md                        roadmap, status, content scan
 templates/
   project-conventions.md       per-project facts the skills read
+  brief.md                     the agreed goal/scope/decisions kickoff writes
 skills/<name>/SKILL.md         one skill per folder
 ```
 

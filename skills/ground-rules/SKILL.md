@@ -1,6 +1,6 @@
 ---
 name: ground-rules
-description: The baseline protocol for ANY task that edits code, config, schema or scripts, in any project and any language. Use BEFORE the first edit (confirm the exact repo, branch and files; look up the project's conventions), WHILE editing (announce stored-data changes before touching them, place new files by role, size inline notes by importance, keep simulation/bypass code out of version control, respect parallel sessions) and AT THE END (record the work, prove it, report it). Skip only for pure read-only work. It delegates the deep parts to sibling skills — deep-dive, additive-change, regression-guard, definition-of-done, living-plan, status-report.
+description: The baseline protocol for ANY task that edits code, config, schema or scripts, in any project and any language. Use BEFORE the first edit (confirm the exact repo, branch and files; look up the project's conventions), WHILE editing (announce stored-data changes before touching them, place new files by role, size inline notes by importance, keep simulation/bypass code out of version control, respect parallel sessions) and AT THE END (record the work, prove it, report it). Skip only for pure read-only work. When there is no repository yet, or the goal/scope is not written down, run kickoff first. It delegates the deep parts to sibling skills — kickoff, deep-dive, additive-change, regression-guard, definition-of-done, living-plan, status-report.
 ---
 
 # ground-rules — the protocol around every change
@@ -10,7 +10,7 @@ branch often cannot. This skill is the frame every change runs inside; the
 sibling skills hold the detail.
 
 ```
-BEFORE  → 0 confirm where · 1 load conventions · deep-dive if anything is unknown
+BEFORE  → kickoff if new project/feature has no brief · 0 confirm where · 1 load conventions · deep-dive if unknown
 DURING  → 2 stored data · 3 placement · 4 notes · 5 no bypass code · 6 parallel sessions
 AFTER   → 7 record (living-plan) · verify (definition-of-done) · report (status-report)
 ALWAYS  → 8 organised · no new debt · scales · dynamic, not hard-coded
